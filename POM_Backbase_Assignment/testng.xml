@@ -1,0 +1,32 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite A">
+
+
+
+
+<test name="TC_001_Add_New_Computer">
+    <classes>
+        <class name="com.pageobjectmodelassignment.testcases.TC_001_Add_New_Computer" ></class>  
+    </classes>
+</test>
+
+<test name="TC_002_Retrieve_Existing_Computer">
+    <classes>
+        <class name="com.pageobjectmodelassignment.testcases.TC_002_Retrieve_Existing_Computer" ></class>  
+    </classes>
+</test>
+
+<test name="TC_003_Delete_Computer">
+    <classes>
+        <class name="com.pageobjectmodelassignment.testcases.TC_003_Delete_Computer" ></class>  
+    </classes>
+</test>
+
+<test name="TC_004_Edit_Computer">
+    <classes>
+        <class name="com.pageobjectmodelassignment.testcases.TC_004_Edit_Computer" ></class>  
+    </classes>
+</test>
+
+</suite>
+

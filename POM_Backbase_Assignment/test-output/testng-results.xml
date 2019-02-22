@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite A" duration-ms="58714" started-at="2019-02-21T23:59:07Z" finished-at="2019-02-22T00:00:06Z">
+    <groups>
+    </groups>
+    <test name="TC_001_Add_New_Computer" duration-ms="16021" started-at="2019-02-21T23:59:07Z" finished-at="2019-02-21T23:59:23Z">
+      <class name="com.pageobjectmodelassignment.testcases.TC_001_Add_New_Computer">
+        <test-method status="PASS" signature="startup()[pri:0, instance:com.pageobjectmodelassignment.testcases.TC_001_Add_New_Computer@42eca56e]" name="startup" is-config="true" duration-ms="8508" started-at="2019-02-22T05:29:07Z" finished-at="2019-02-22T05:29:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method status="PASS" signature="addNewComputer(java.util.Map)[pri:0, instance:com.pageobjectmodelassignment.testcases.TC_001_Add_New_Computer@42eca56e]" name="addNewComputer" duration-ms="2178" started-at="2019-02-22T05:29:16Z" data-provider="data" finished-at="2019-02-22T05:29:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{IntroducedDate=2018-06-09, Company=RCA, ComputerName=Comp1, DiscontinuedDate=2018-07-09}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewComputer -->
+        <test-method status="PASS" signature="searchAddedComputer()[pri:0, instance:com.pageobjectmodelassignment.testcases.TC_001_Add_New_Computer@42eca56e]" name="searchAddedComputer" duration-ms="869" started-at="2019-02-22T05:29:19Z" depends-on-methods="com.pageobjectmodelassignment.testcases.TC_001_Add_New_Computer.addNewComputer" finished-at="2019-02-22T05:29:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchAddedComputer -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.pageobjectmodelassignment.testcases.TC_001_Add_New_Computer@42eca56e]" name="quit" is-config="true" duration-ms="3573" started-at="2019-02-22T05:29:19Z" finished-at="2019-02-22T05:29:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.pageobjectmodelassignment.testcases.TC_001_Add_New_Computer -->
+    </test> <!-- TC_001_Add_New_Computer -->
+    <test name="TC_002_Retrieve_Existing_Computer" duration-ms="13676" started-at="2019-02-21T23:59:23Z" finished-at="2019-02-21T23:59:37Z">
+      <class name="com.pageobjectmodelassignment.testcases.TC_002_Retrieve_Existing_Computer">
+        <test-method status="PASS" signature="startup()[pri:0, instance:com.pageobjectmodelassignment.testcases.TC_002_Retrieve_Existing_Computer@42607a4f]" name="startup" is-config="true" duration-ms="6332" started-at="2019-02-22T05:29:23Z" finished-at="2019-02-22T05:29:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method status="PASS" signature="addNewComputer(java.util.Map)[pri:0, instance:com.pageobjectmodelassignment.testcases.TC_002_Retrieve_Existing_Computer@42607a4f]" name="addNewComputer" duration-ms="1952" started-at="2019-02-22T05:29:29Z" data-provider="data" finished-at="2019-02-22T05:29:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{IntroducedDate=2018-09-01, Company=MOS Technology, ComputerName=Comp2, DiscontinuedDate=2010-07-09}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewComputer -->
+        <test-method status="PASS" signature="validateRetrieveComputer()[pri:0, instance:com.pageobjectmodelassignment.testcases.TC_002_Retrieve_Existing_Computer@42607a4f]" name="validateRetrieveComputer" duration-ms="2189" started-at="2019-02-22T05:29:31Z" depends-on-methods="com.pageobjectmodelassignment.testcases.TC_002_Retrieve_Existing_Computer.addNewComputer" finished-at="2019-02-22T05:29:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateRetrieveComputer -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.pageobjectmodelassignment.testcases.TC_002_Retrieve_Existing_Computer@42607a4f]" name="quit" is-config="true" duration-ms="3130" started-at="2019-02-22T05:29:34Z" finished-at="2019-02-22T05:29:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.pageobjectmodelassignment.testcases.TC_002_Retrieve_Existing_Computer -->
+    </test> <!-- TC_002_Retrieve_Existing_Computer -->
+    <test name="TC_003_Delete_Computer" duration-ms="14539" started-at="2019-02-21T23:59:37Z" finished-at="2019-02-21T23:59:51Z">
+      <class name="com.pageobjectmodelassignment.testcases.TC_003_Delete_Computer">
+        <test-method status="PASS" signature="startup()[pri:0, instance:com.pageobjectmodelassignment.testcases.TC_003_Delete_Computer@150c158]" name="startup" is-config="true" duration-ms="6207" started-at="2019-02-22T05:29:37Z" finished-at="2019-02-22T05:29:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method status="PASS" signature="addNewComputer(java.util.Map)[pri:0, instance:com.pageobjectmodelassignment.testcases.TC_003_Delete_Computer@150c158]" name="addNewComputer" duration-ms="1970" started-at="2019-02-22T05:29:43Z" data-provider="data" finished-at="2019-02-22T05:29:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{IntroducedDate=2010-02-01, Company=Apple Inc., ComputerName=DeleteComp3, DiscontinuedDate=2010-07-09}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewComputer -->
+        <test-method status="PASS" signature="deleteComputer(java.util.Map)[pri:0, instance:com.pageobjectmodelassignment.testcases.TC_003_Delete_Computer@150c158]" name="deleteComputer" duration-ms="2327" started-at="2019-02-22T05:29:45Z" data-provider="data" depends-on-methods="com.pageobjectmodelassignment.testcases.TC_003_Delete_Computer.addNewComputer" finished-at="2019-02-22T05:29:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{IntroducedDate=2010-02-01, Company=Apple Inc., ComputerName=DeleteComp3, DiscontinuedDate=2010-07-09}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteComputer -->
+        <test-method status="PASS" signature="searchDeletedComputer(java.util.Map)[pri:0, instance:com.pageobjectmodelassignment.testcases.TC_003_Delete_Computer@150c158]" name="searchDeletedComputer" duration-ms="653" started-at="2019-02-22T05:29:47Z" data-provider="data" depends-on-methods="com.pageobjectmodelassignment.testcases.TC_003_Delete_Computer.addNewComputer, com.pageobjectmodelassignment.testcases.TC_003_Delete_Computer.deleteComputer" finished-at="2019-02-22T05:29:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{IntroducedDate=2010-02-01, Company=Apple Inc., ComputerName=DeleteComp3, DiscontinuedDate=2010-07-09}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchDeletedComputer -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.pageobjectmodelassignment.testcases.TC_003_Delete_Computer@150c158]" name="quit" is-config="true" duration-ms="3216" started-at="2019-02-22T05:29:48Z" finished-at="2019-02-22T05:29:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.pageobjectmodelassignment.testcases.TC_003_Delete_Computer -->
+    </test> <!-- TC_003_Delete_Computer -->
+    <test name="TC_004_Edit_Computer" duration-ms="14422" started-at="2019-02-21T23:59:51Z" finished-at="2019-02-22T00:00:06Z">
+      <class name="com.pageobjectmodelassignment.testcases.TC_004_Edit_Computer">
+        <test-method status="PASS" signature="startup()[pri:0, instance:com.pageobjectmodelassignment.testcases.TC_004_Edit_Computer@706a04ae]" name="startup" is-config="true" duration-ms="5851" started-at="2019-02-22T05:29:51Z" finished-at="2019-02-22T05:29:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startup -->
+        <test-method status="PASS" signature="addNewComputer(java.util.Map)[pri:0, instance:com.pageobjectmodelassignment.testcases.TC_004_Edit_Computer@706a04ae]" name="addNewComputer" duration-ms="1673" started-at="2019-02-22T05:29:57Z" data-provider="data" finished-at="2019-02-22T05:29:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{IntroducedDate_Edited=2018-02-01, IntroducedDate=, Company=Apple Inc., Company_Edited=RCA, ComputerName=Comp3, DiscontinuedDate=, DiscontinuedDate_Edited=2018-07-09}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewComputer -->
+        <test-method status="PASS" signature="editComputer(java.util.Map)[pri:0, instance:com.pageobjectmodelassignment.testcases.TC_004_Edit_Computer@706a04ae]" name="editComputer" duration-ms="2302" started-at="2019-02-22T05:29:59Z" data-provider="data" depends-on-methods="com.pageobjectmodelassignment.testcases.TC_004_Edit_Computer.addNewComputer" finished-at="2019-02-22T05:30:01Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{IntroducedDate_Edited=2018-02-01, IntroducedDate=, Company=Apple Inc., Company_Edited=RCA, ComputerName=Comp3, DiscontinuedDate=, DiscontinuedDate_Edited=2018-07-09}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editComputer -->
+        <test-method status="PASS" signature="searchEditedComputer(java.util.Map)[pri:0, instance:com.pageobjectmodelassignment.testcases.TC_004_Edit_Computer@706a04ae]" name="searchEditedComputer" duration-ms="1364" started-at="2019-02-22T05:30:01Z" data-provider="data" depends-on-methods="com.pageobjectmodelassignment.testcases.TC_004_Edit_Computer.addNewComputer, com.pageobjectmodelassignment.testcases.TC_004_Edit_Computer.editComputer" finished-at="2019-02-22T05:30:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{IntroducedDate_Edited=2018-02-01, IntroducedDate=, Company=Apple Inc., Company_Edited=RCA, ComputerName=Comp3, DiscontinuedDate=, DiscontinuedDate_Edited=2018-07-09}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchEditedComputer -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.pageobjectmodelassignment.testcases.TC_004_Edit_Computer@706a04ae]" name="quit" is-config="true" duration-ms="3110" started-at="2019-02-22T05:30:03Z" finished-at="2019-02-22T05:30:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.pageobjectmodelassignment.testcases.TC_004_Edit_Computer -->
+    </test> <!-- TC_004_Edit_Computer -->
+  </suite> <!-- Suite A -->
+</testng-results>

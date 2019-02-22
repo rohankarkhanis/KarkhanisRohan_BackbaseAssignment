@@ -1,0 +1,85 @@
+02:34:11,694 DEBUG devpinoyLogger:49 â?? Starting loggin
+02:34:11,702 DEBUG devpinoyLogger:49 â?? Starting loggin
+02:34:11,703 DEBUG devpinoyLogger:49 â?? Starting loggin
+02:34:11,703 DEBUG devpinoyLogger:52 â?? Starting test
+02:34:12,446 DEBUG devpinoyLogger:54 â?? Adding Computer
+02:34:12,493 DEBUG devpinoyLogger:34 â?? Computer Name was entered to add a new computer
+02:34:12,532 DEBUG devpinoyLogger:46 â?? Introduced date value was entered
+02:34:12,565 DEBUG devpinoyLogger:58 â?? Enter discontinued date
+02:34:12,919 DEBUG devpinoyLogger:71 â?? Company selected
+02:34:13,525 DEBUG devpinoyLogger:98 â?? Added a new computer with the nameComp1
+02:34:13,769 DEBUG devpinoyLogger:49 â?? Starting loggin
+02:34:13,791 DEBUG devpinoyLogger:67 â?? Computer Name was entered
+02:34:14,074 DEBUG devpinoyLogger:92 â?? Searching for existing computer
+02:34:14,212 DEBUG devpinoyLogger:128 â?? Introduced date value was retrieved
+02:34:14,311 DEBUG devpinoyLogger:121 â?? Discontinued date value was retrieved
+02:34:14,382 DEBUG devpinoyLogger:114 â?? Company name of existing computer retrieved
+02:34:14,467 DEBUG cache:45 â?? Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+02:34:14,469 DEBUG cache:45 â?? TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+02:34:14,470 DEBUG cache:45 â?? TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+02:34:14,471 DEBUG cache:45 â?? TemplateLoader.findTemplateSource("Extent.ftl"): Found
+02:34:14,471 DEBUG cache:45 â?? Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/rkarkhanis/.m2/repository/com/relevantcodes/extentreports/2.40.1/extentreports-2.40.1.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+02:34:21,547 DEBUG devpinoyLogger:49 â?? Starting loggin
+02:34:21,548 DEBUG devpinoyLogger:49 â?? Starting loggin
+02:34:21,862 DEBUG devpinoyLogger:54 â?? Adding Computer
+02:34:21,901 DEBUG devpinoyLogger:34 â?? Computer Name was entered to add a new computer
+02:34:21,933 DEBUG devpinoyLogger:46 â?? Introduced date value was entered
+02:34:21,958 DEBUG devpinoyLogger:58 â?? Enter discontinued date
+02:34:22,208 DEBUG devpinoyLogger:71 â?? Company selected
+02:34:22,871 DEBUG devpinoyLogger:98 â?? Added a new computer with the nameComp2
+02:34:23,083 DEBUG devpinoyLogger:49 â?? Starting loggin
+02:34:23,086 DEBUG devpinoyLogger:49 â?? Starting loggin
+02:34:23,622 DEBUG devpinoyLogger:128 â?? Introduced date value was retrieved
+02:34:23,768 DEBUG devpinoyLogger:121 â?? Discontinued date value was retrieved
+02:34:23,850 DEBUG devpinoyLogger:114 â?? Company name of existing computer retrieved
+02:34:24,722 DEBUG cache:45 â?? Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+02:34:24,723 DEBUG cache:45 â?? TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+02:34:24,723 DEBUG cache:45 â?? TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+02:34:24,724 DEBUG cache:45 â?? TemplateLoader.findTemplateSource("Extent.ftl"): Found
+02:34:24,725 DEBUG cache:45 â?? Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/rkarkhanis/.m2/repository/com/relevantcodes/extentreports/2.40.1/extentreports-2.40.1.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+02:34:31,296 DEBUG devpinoyLogger:49 â?? Starting loggin
+02:34:31,297 DEBUG devpinoyLogger:49 â?? Starting loggin
+02:34:31,639 DEBUG devpinoyLogger:54 â?? Adding Computer
+02:34:31,699 DEBUG devpinoyLogger:34 â?? Computer Name was entered to add a new computer
+02:34:31,734 DEBUG devpinoyLogger:46 â?? Introduced date value was entered
+02:34:31,761 DEBUG devpinoyLogger:58 â?? Enter discontinued date
+02:34:32,010 DEBUG devpinoyLogger:71 â?? Company selected
+02:34:32,633 DEBUG devpinoyLogger:98 â?? Added a new computer with the nameDeleteComp3
+02:34:32,663 DEBUG devpinoyLogger:49 â?? Starting loggin
+02:34:32,664 DEBUG devpinoyLogger:49 â?? Starting loggin
+02:34:32,710 DEBUG devpinoyLogger:67 â?? Computer Name was entered
+02:34:33,009 DEBUG devpinoyLogger:92 â?? Searching for existing computer
+02:34:34,116 DEBUG devpinoyLogger:49 â?? Starting loggin
+02:34:34,135 DEBUG devpinoyLogger:67 â?? Computer Name was entered
+02:34:34,424 DEBUG devpinoyLogger:92 â?? Searching for existing computer
+02:34:34,537 DEBUG cache:45 â?? Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+02:34:34,538 DEBUG cache:45 â?? TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+02:34:34,539 DEBUG cache:45 â?? TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+02:34:34,542 DEBUG cache:45 â?? TemplateLoader.findTemplateSource("Extent.ftl"): Found
+02:34:34,543 DEBUG cache:45 â?? Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/rkarkhanis/.m2/repository/com/relevantcodes/extentreports/2.40.1/extentreports-2.40.1.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+02:34:40,593 DEBUG devpinoyLogger:49 â?? Starting loggin
+02:34:40,594 DEBUG devpinoyLogger:49 â?? Starting loggin
+02:34:40,969 DEBUG devpinoyLogger:54 â?? Adding Computer
+02:34:41,007 DEBUG devpinoyLogger:34 â?? Computer Name was entered to add a new computer
+02:34:41,030 DEBUG devpinoyLogger:46 â?? Introduced date value was entered
+02:34:41,047 DEBUG devpinoyLogger:58 â?? Enter discontinued date
+02:34:41,370 DEBUG devpinoyLogger:71 â?? Company selected
+02:34:41,978 DEBUG devpinoyLogger:98 â?? Added a new computer with the nameComp3
+02:34:42,012 DEBUG devpinoyLogger:49 â?? Starting loggin
+02:34:42,013 DEBUG devpinoyLogger:49 â?? Starting loggin
+02:34:42,056 DEBUG devpinoyLogger:67 â?? Computer Name was entered
+02:34:42,372 DEBUG devpinoyLogger:92 â?? Searching for existing computer
+02:34:42,763 DEBUG devpinoyLogger:36 â?? Entered text in the edit computer name field
+02:34:42,788 DEBUG devpinoyLogger:49 â?? Introduced Date edited
+02:34:42,809 DEBUG devpinoyLogger:62 â?? Discontinued on date edited
+02:34:43,053 DEBUG devpinoyLogger:75 â?? Company value edited
+02:34:43,594 DEBUG devpinoyLogger:86 â?? Edited computer is saved
+02:34:43,853 DEBUG devpinoyLogger:49 â?? Starting loggin
+02:34:43,854 DEBUG devpinoyLogger:49 â?? Starting loggin
+02:34:43,871 DEBUG devpinoyLogger:67 â?? Computer Name was entered
+02:34:44,170 DEBUG devpinoyLogger:92 â?? Searching for existing computer
+02:34:44,913 DEBUG cache:45 â?? Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+02:34:44,914 DEBUG cache:45 â?? TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+02:34:44,914 DEBUG cache:45 â?? TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+02:34:44,915 DEBUG cache:45 â?? TemplateLoader.findTemplateSource("Extent.ftl"): Found
+02:34:44,915 DEBUG cache:45 â?? Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/rkarkhanis/.m2/repository/com/relevantcodes/extentreports/2.40.1/extentreports-2.40.1.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
